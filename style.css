@@ -1,0 +1,55 @@
+body {
+    font-size:20px;
+    background-color: white; 
+    display: flex ;
+    align-items: center;     
+    justify-content:center;  
+}
+#facebook, #instagram, #twitter {
+    width: 30px;
+    display: inline-block;
+    margin:auto;
+}  
+#image1{
+    width:600px;
+    display: block;
+    
+}
+#input1{
+    padding: 6px;
+    margin:5px ;
+    border-radius: 20PX;
+    /* display: inline-block; */
+    margin: auto;
+    width:350px;
+    border:0.4px solid gray
+}
+#button1{
+    margin:3px;
+    border-radius: 12px;
+    padding:4px;
+    background-color: hsl(223, 87%, 63%);
+    color:white;
+    /* display: block; */
+    margin: auto;
+    width:150px;
+    border: 0px  solid black
+
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+p, h6, footer, .notify-form {
+    text-align: center;
+}
+#span1{
+    font-size:50px;
+    color:hsl(0, 0%, 59%);
+}
+#span2{
+    font-size: 50px;
+    font-weight: 800;  
+}
